@@ -1,0 +1,18 @@
+.header {
+  width: 100%;
+  background-color: #e92832;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  img {
+    width: 35%;
+  }
+  .beer-guide {
+    color: white;
+    font-size: 1.8em;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
