@@ -9,10 +9,8 @@ const ItemPage = (props) => {
        console.log(array)
        setCurrentItem(array[0])
        console.log(props.match)
-    }, [])
-    useEffect(() => {
-        console.log(currentItem)
-    },[currentItem])
+    }, [array, props.match])
+ 
     return (
         <div>
           
