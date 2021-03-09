@@ -18,5 +18,10 @@
     font-weight: bold;
     padding: 1.5%;
     font-size: 1.1em;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
   }
 }

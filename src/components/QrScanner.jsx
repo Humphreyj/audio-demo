@@ -50,7 +50,8 @@ const QrScanner = () => {
         pauseOnHover
          />
       
-      <h1 className="section-title">Scan a QR code to get started.</h1>
+      <h1 className="section-title">Welcome to Spec's Audio Beer Guide.</h1>
+      <h4 className="section-subtitle">Scan a QR code to get started</h4>
       {showScanner ? (
         <QrReader
           delay={1000}
